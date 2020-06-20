@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<fx:root type="javafx.scene.control.ListCell" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+   <graphic>
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="148.0" prefWidth="610.0" styleClass="sceneBackground" xmlns="http://javafx.com/javafx/8.0.221" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="99.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true" styleClass="icon">
+         <image>
+            <Image url="@../snake.jpg" />
+         </image>
+         <HBox.margin>
+            <Insets bottom="25.0" left="15.0" right="15.0" top="25.0" />
+         </HBox.margin>
+      </ImageView>
+      <VBox prefHeight="110.0" prefWidth="492.0">
+         <children>
+            <Label fx:id="username" prefHeight="29.0" prefWidth="455.0" styleClass="bigLabel" text="1. KRZYSZTOF">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="score" prefHeight="31.0" prefWidth="455.0" styleClass="bigLabel" text="SCORE: 10">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="time" prefHeight="31.0" prefWidth="455.0" styleClass="bigLabel" text="TIME: 00:51">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="board" prefHeight="31.0" prefWidth="455.0" styleClass="bigLabel" text="BOARD: 10X10">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</HBox>
+   </graphic>
+</fx:root>

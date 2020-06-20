@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox fx:id="nickTxt" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" styleClass="back" xmlns="http://javafx.com/javafx/8.0.221" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.GameOverDialogController">
+   <children>
+      <Label alignment="CENTER" prefHeight="45.0" prefWidth="126.0" styleClass="bigLabel" text="GAME OVER">
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin>
+      </Label>
+      <Label alignment="CENTER" prefHeight="36.0" prefWidth="179.0" styleClass="nickLabel" text="INSERT YOUR NICK:" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="confirmTxt" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="31.0" prefWidth="182.0" promptText="Username">
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin>
+      </TextField>
+      <Button fx:id="confirmButton" mnemonicParsing="false" onAction="#confirmAndFinish" prefHeight="36.0" prefWidth="86.0" styleClass="confirmButton" text="CONFIRM" />
+   </children>
+</VBox>

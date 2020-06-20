@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Pixeled';
+    src: url('../fonts/Pixeled.ttf');
+}
+
+.title {
+    -fx-background-color: #ecf39e;
+    -fx-font-size: 25px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+    -fx-padding: 5px;
+    -fx-background-radius: 8px;
+}
+
+.highScores {
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-size: 10px;
+    -fx-font-family: "Pixeled";
+    -fx-padding: 5px;
+    -fx-background-radius: 8px;
+}
+
+.button {
+    -fx-padding: 5px;
+    -fx-text-fill: white;
+    -fx-text-shadow: 2px 2px #ff0000;
+    -fx-background-color: #90a955;
+    -fx-background-radius: 15;
+    -fx-font-size: 15px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+}
+
+.button:hover {
+    -fx-background-color: #aad576;
+    -fx-cursor: hand;
+}
+
+.sceneBackground {
+    -fx-background-color: #4f772d;
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Pixeled';
+    src: url('../fonts/Pixeled.ttf');
+}
+
+.bigLabel {
+    -fx-background-color: #ecf39e;
+    -fx-font-size: 11px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+    -fx-padding: 5px;
+    -fx-background-radius: 8px;
+}
+
+.nickLabel {
+    -fx-background-color: #aad576;
+    -fx-text-fill: white;
+    -fx-font-size: 8px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+    -fx-padding: 5px;
+    -fx-background-radius: 8px;
+}
+
+.text-field {
+    -fx-font-family: "Pixeled";
+    -fx-font-size: 8px;
+}
+
+.confirmButton {
+    -fx-padding: 5px;
+    -fx-text-fill: white;
+    -fx-text-shadow: 2px 2px #ff0000;
+    -fx-background-color: #90a955;
+    -fx-background-radius: 15;
+    -fx-font-size: 8px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+}
+
+.confirmButton:hover {
+    -fx-background-color: #aad576;
+    -fx-cursor: hand;
+}
+
+.back {
+    -fx-background-color: #245501;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-background-radius: 8px;
+}

@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Pixeled';
+    src: url('../fonts/Pixeled.ttf');
+}
+
+.bigLabel {
+    -fx-background-color: #ecf39e;
+    -fx-font-size: 25px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+    -fx-padding: 5px;
+    -fx-background-radius: 8px;
+}
+
+.smallLabel {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ecf39e;
+    -fx-border-style: solid;
+    -fx-border-color: #ecf39e;
+    -fx-border-radius: 8px;
+    -fx-font-size: 11px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+    -fx-padding: 3px;
+}
+
+.smallLabel:hover {
+    -fx-background-color: #ecf39e;
+    -fx-background-radius: 8px;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #aad576;
+    -fx-cursor: hand;
+}
+
+.combo-box {
+   -fx-background-color: #90a955;
+    -fx-effect: dropshadow(three-pass-box, black, 8, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+}
+
+.combo-box .cell{
+    -fx-font-family: "Pixeled";
+    -fx-text-fill: black;
+    -fx-font-size: 10px;
+}
+
+
+.list-cell {
+    -fx-font-family: "Pixeled";
+    -fx-text-fill: black;
+    -fx-font-size: 10px;
+}
+
+.button {
+    -fx-padding: 5px;
+    -fx-text-fill: white;
+    -fx-text-shadow: 2px 2px #ff0000;
+    -fx-background-color: #90a955;
+    -fx-background-radius: 15;
+    -fx-font-size: 15px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+}
+
+.sceneBackground {
+    -fx-background-color: #4f772d;
+}

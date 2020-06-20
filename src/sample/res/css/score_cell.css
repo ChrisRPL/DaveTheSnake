@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Pixeled';
+    src: url('../fonts/Pixeled.ttf');
+}
+
+.bigLabel {
+    -fx-background-color: #ecf39e;
+    -fx-font-size: 9px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+    -fx-padding: 0px 0px 0px 5px;
+    -fx-background-radius: 8px;
+}
+
+.icon {
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-background-radius: 8px;
+}
+
+.sceneBackground {
+    -fx-background-color: #aad576;
+    -fx-background-radius: 8px;
+}

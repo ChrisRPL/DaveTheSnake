@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Pixeled';
+    src: url('../fonts/Pixeled.ttf');
+}
+
+.bigLabel {
+    -fx-background-color: #ecf39e;
+    -fx-font-size: 18px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+    -fx-padding: 5px;
+    -fx-background-radius: 8px;
+}
+
+.sceneBackground {
+    -fx-background-color: #4f772d;
+}
+
+.homeButton {
+    -fx-padding: 5px;
+    -fx-text-fill: white;
+    -fx-text-shadow: 2px 2px #ff0000;
+    -fx-background-color: #90a955;
+    -fx-background-radius: 15;
+    -fx-font-size: 15px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-font-family: "Pixeled";
+}
+
+.homeButton:hover {
+    -fx-background-color: #aad576;
+    -fx-cursor: hand;
+}
+
+.snakeBody {
+    -fx-fill: #1a4301;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+    -fx-border-radius: 8px;
+    -fx-border-color: #538d22;
+    -fx-border-width: 3px;
+}
+
+.goodFood {
+    -fx-fill: #aad576;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+}
+
+.badFood {
+    -fx-fill: red;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+}
+
+.board {
+    -fx-background-color: #ecf39e;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+}
